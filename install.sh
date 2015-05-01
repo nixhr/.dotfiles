@@ -2,7 +2,7 @@
 
 DOTFILES_DIR=~/.dotfiles
 BACKUP_DIR=~/.dotfiles_orig
-FILES=".bashrc .vimrc .tmux.conf"
+FILES=".bashrc .vimrc .tmux.conf .git-prompt-colors.sh"
 
 mkdir -p $BACKUP_DIR
 for i in $FILES
