@@ -23,9 +23,9 @@ export TZ='Europe/Zagreb'
 export EDITOR=vim
 export VISUAL=vim
 export PS1='\[\033[01;31m\]\u\[\033[01;33m\]@\[\033[01;36m\]\h \[\033[01;33m\]\w \[\033[01;35m\]\$ \[\033[00m\]'
-if [ -e /root/.bash-git-prompt/gitprompt.sh ]
+if [ -e ~/.bash-git-prompt/gitprompt.sh ]
 then
   #export GIT_PROMPT_ONLY_IN_REPO=1
   export GIT_PROMPT_THEME=Custom
-  source /root/.bash-git-prompt/gitprompt.sh
+  source ~/.bash-git-prompt/gitprompt.sh
 fi
